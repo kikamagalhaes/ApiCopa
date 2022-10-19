@@ -71,6 +71,8 @@ namespace apideteste.Controllers
             return StatusCode(200, adminDb);
         }
 
+        [HttpDelete("{id}")]
+
         public ActionResult Delete(int id)
         {
             var adminDb = db.Admins.Find(id);

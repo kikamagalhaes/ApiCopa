@@ -66,7 +66,7 @@ namespace apideteste.Controllers
 
             return StatusCode(200, faseDb);
         }
-
+        [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
             var faseDb = db.FaseCopas.Find(id);

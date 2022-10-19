@@ -89,7 +89,7 @@ namespace apideteste.Controllers
 
             return StatusCode(200, jogoDb);
         }
-
+        [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
             var jogoDb = db.Admins.Find(id);

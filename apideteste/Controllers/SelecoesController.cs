@@ -71,7 +71,7 @@ namespace apideteste.Controllers
 
             return StatusCode(200, selecaoDb);
         }
-
+        [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
             var selecaoDb = db.Selecaos.Find(id);
