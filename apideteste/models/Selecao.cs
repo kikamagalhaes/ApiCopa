@@ -5,7 +5,7 @@ namespace apideteste.models
     public class Selecao
     {
         [Key]
-        public int SelecaoId { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório")]
         [MaxLength(20)]
