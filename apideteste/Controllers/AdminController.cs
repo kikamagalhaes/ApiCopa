@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System;
 using Microsoft.EntityFrameworkCore;
+using apideteste.models;
 
 namespace apideteste.Controllers
 {
@@ -43,5 +44,45 @@ namespace apideteste.Controllers
                 }
             }
         }
-      }
+
+        [HttpPost]
+        public ActionResult Post([FromBody] Admin admin)
+        {
+            db.Admins.Add(admin);
+            db.SaveChanges();
+            return StatusCode(201, admin);
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Put(int id, [FromBody] Admin admin)
+        {
+            var adminDb = db.Admins.Find(id);
+            if (id < 1 || adminDb == null)
+            {
+                return StatusCode(404);
+            }
+            adminDb.Nome = admin.Nome;
+            adminDb.Email = admin.Email;
+            adminDb.Senha = admin.Senha;
+           
+            db.Admins.Update(adminDb);
+            db.SaveChanges();
+
+            return StatusCode(200, adminDb);
+        }
+
+        public ActionResult Delete(int id)
+        {
+            var adminDb = db.Admins.Find(id);
+            if (id < 1 || adminDb == null)
+            {
+                return StatusCode(404);
+            }
+
+            db.Admins.Remove(adminDb);
+            db.SaveChanges();
+
+            return StatusCode(204);
+        }
+    }
     }

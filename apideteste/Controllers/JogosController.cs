@@ -1,4 +1,5 @@
-﻿using apideteste.Services;
+﻿using apideteste.models;
+using apideteste.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
@@ -58,6 +59,52 @@ namespace apideteste.Controllers
 
 
        }
-     }
- }
+        [HttpPost]
+        public ActionResult Post([FromBody] Jogo jogo)
+        {
+            db.Jogos.Add(jogo);
+            db.SaveChanges();
+            return StatusCode(201, jogo);
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Put(int id, [FromBody] Jogo jogo)
+        {
+            var jogoDb = db.Jogos.Find(id);
+            if (id < 1 || jogoDb == null)
+            {
+                return StatusCode(404);
+            }
+            jogoDb.SelecaoA = jogo.SelecaoA;
+            jogoDb.SelecaoB = jogo.SelecaoB;
+            jogoDb.GolsSelecaoA = jogo.GolsSelecaoA;
+            jogoDb.GolsSelecaoB = jogo.GolsSelecaoB;
+            jogoDb.FaseCopaId = jogo.FaseCopaId;
+            jogoDb.InicioJogo = jogo.InicioJogo;
+            jogoDb.FimJogo = jogo.FimJogo;
+            jogoDb.TempoAtual = jogo.TempoAtual;
+
+            db.Jogos.Update(jogoDb);
+            db.SaveChanges();
+
+            return StatusCode(200, jogoDb);
+        }
+
+        public ActionResult Delete(int id)
+        {
+            var jogoDb = db.Admins.Find(id);
+            if (id < 1 || jogoDb == null)
+            {
+                return StatusCode(404);
+            }
+
+            db.Admins.Remove(jogoDb);
+            db.SaveChanges();
+
+            return StatusCode(204);
+        }
+    }
+
+   
+}
 

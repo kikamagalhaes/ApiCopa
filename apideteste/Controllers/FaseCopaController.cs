@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System;
 using Microsoft.EntityFrameworkCore;
+using apideteste.models;
 
 namespace apideteste.Controllers
 {
@@ -40,6 +41,44 @@ namespace apideteste.Controllers
                     return lista;
                 }
             }
+        }
+
+        [HttpPost]
+        public ActionResult Post([FromBody] FaseCopa fase)
+        {
+            db.FaseCopas.Add(fase);
+            db.SaveChanges();
+            return StatusCode(201, fase);
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Put(int id, [FromBody] FaseCopa fase)
+        {
+            var faseDb = db.FaseCopas.Find(id);
+            if (id < 1 || faseDb == null)
+            {
+                return StatusCode(404);
+            }
+            faseDb.Nome = fase.Nome;
+
+            db.FaseCopas.Update(faseDb);
+            db.SaveChanges();
+
+            return StatusCode(200, faseDb);
+        }
+
+        public ActionResult Delete(int id)
+        {
+            var faseDb = db.FaseCopas.Find(id);
+            if (id < 1 || faseDb == null)
+            {
+                return StatusCode(404);
+            }
+
+            db.FaseCopas.Remove(faseDb);
+            db.SaveChanges();
+
+            return StatusCode(204);
         }
     }
 }
