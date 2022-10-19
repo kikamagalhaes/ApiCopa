@@ -1,0 +1,9 @@
+﻿version: '3.3'
+services:
+  apiStone:
+    container_name: apideteste
+    image: apideteste
+    environment:
+      DATABASE_URL: "server=192.168.1.113;port=3306;database=Teste;uid=root;password=;"
+    ports:
+      - "5001:5001"
