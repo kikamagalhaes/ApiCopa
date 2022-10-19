@@ -92,13 +92,13 @@ namespace apideteste.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            var jogoDb = db.Admins.Find(id);
+            var jogoDb = db.Admin.Find(id);
             if (id < 1 || jogoDb == null)
             {
                 return StatusCode(404);
             }
 
-            db.Admins.Remove(jogoDb);
+            db.Admin.Remove(jogoDb);
             db.SaveChanges();
 
             return StatusCode(204);

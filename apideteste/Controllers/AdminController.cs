@@ -48,7 +48,7 @@ namespace apideteste.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] Admin admin)
         {
-            db.Admins.Add(admin);
+            db.Admin.Add(admin);
             db.SaveChanges();
             return StatusCode(201, admin);
         }
@@ -56,7 +56,7 @@ namespace apideteste.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Admin admin)
         {
-            var adminDb = db.Admins.Find(id);
+            var adminDb = db.Admin.Find(id);
             if (id < 1 || adminDb == null)
             {
                 return StatusCode(404);
@@ -65,7 +65,7 @@ namespace apideteste.Controllers
             adminDb.Email = admin.Email;
             adminDb.Senha = admin.Senha;
            
-            db.Admins.Update(adminDb);
+            db.Admin.Update(adminDb);
             db.SaveChanges();
 
             return StatusCode(200, adminDb);
@@ -75,13 +75,13 @@ namespace apideteste.Controllers
 
         public ActionResult Delete(int id)
         {
-            var adminDb = db.Admins.Find(id);
+            var adminDb = db.Admin.Find(id);
             if (id < 1 || adminDb == null)
             {
                 return StatusCode(404);
             }
 
-            db.Admins.Remove(adminDb);
+            db.Admin.Remove(adminDb);
             db.SaveChanges();
 
             return StatusCode(204);

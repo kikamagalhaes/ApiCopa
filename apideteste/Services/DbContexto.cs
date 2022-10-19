@@ -13,10 +13,10 @@ namespace apideteste.Services
 
 
         public DbSet<Cliente> Clientes { get; set; }
-        public DbSet<Admin> Admins { get; set; }
-        public DbSet<FaseCopa> FaseCopas { get; set; }
+        public DbSet<Admin> Admin { get; set; }
+        public DbSet<FaseCopa> FaseCopa { get; set; }
         public DbSet<Jogo> Jogos { get; set; }
-        public DbSet<Selecao> Selecaos { get; set; }
+        public DbSet<Selecao> Selecao { get; set; }
 
     }
 }

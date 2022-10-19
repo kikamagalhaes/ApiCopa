@@ -46,7 +46,7 @@ namespace apideteste.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] FaseCopa fase)
         {
-            db.FaseCopas.Add(fase);
+            db.FaseCopa.Add(fase);
             db.SaveChanges();
             return StatusCode(201, fase);
         }
@@ -54,14 +54,14 @@ namespace apideteste.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] FaseCopa fase)
         {
-            var faseDb = db.FaseCopas.Find(id);
+            var faseDb = db.FaseCopa.Find(id);
             if (id < 1 || faseDb == null)
             {
                 return StatusCode(404);
             }
             faseDb.Nome = fase.Nome;
 
-            db.FaseCopas.Update(faseDb);
+            db.FaseCopa.Update(faseDb);
             db.SaveChanges();
 
             return StatusCode(200, faseDb);
@@ -69,13 +69,13 @@ namespace apideteste.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            var faseDb = db.FaseCopas.Find(id);
+            var faseDb = db.FaseCopa.Find(id);
             if (id < 1 || faseDb == null)
             {
                 return StatusCode(404);
             }
 
-            db.FaseCopas.Remove(faseDb);
+            db.FaseCopa.Remove(faseDb);
             db.SaveChanges();
 
             return StatusCode(204);

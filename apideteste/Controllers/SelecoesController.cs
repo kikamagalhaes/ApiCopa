@@ -49,7 +49,7 @@ namespace apideteste.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] Selecao selecao)
         {
-            db.Selecaos.Add(selecao);
+            db.Selecao.Add(selecao);
             db.SaveChanges();
             return StatusCode(201, selecao);
         }
@@ -57,7 +57,7 @@ namespace apideteste.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Selecao selecao)
         {
-            var selecaoDb = db.Selecaos.Find(id);
+            var selecaoDb = db.Selecao.Find(id);
             if (id < 1 || selecaoDb == null)
             {
                 return StatusCode(404);
@@ -66,7 +66,7 @@ namespace apideteste.Controllers
             selecaoDb.Descricao = selecao.Descricao;
             selecaoDb.UrlImagemBandeira = selecao.UrlImagemBandeira;
 
-            db.Selecaos.Update(selecaoDb);
+            db.Selecao.Update(selecaoDb);
             db.SaveChanges();
 
             return StatusCode(200, selecaoDb);
@@ -74,13 +74,13 @@ namespace apideteste.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            var selecaoDb = db.Selecaos.Find(id);
+            var selecaoDb = db.Selecao.Find(id);
             if (id < 1 || selecaoDb == null)
             {
                 return StatusCode(404);
             }
 
-            db.Selecaos.Remove(selecaoDb);
+            db.Selecao.Remove(selecaoDb);
             db.SaveChanges();
 
             return StatusCode(204);
