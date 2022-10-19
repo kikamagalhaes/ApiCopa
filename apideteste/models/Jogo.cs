@@ -22,6 +22,7 @@ namespace apideteste.models
         [ForeignKey("Selecao")]
         public int SelecaoBId { get; set; }
         public Selecao SelecaoB { get; set; }
+
         [Column(name: "GolSelecaoA")]
         [ForeignKey("Selecao")]
         public int GolsSelecaoA { get; set; }
