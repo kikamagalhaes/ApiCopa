@@ -7,10 +7,10 @@
 Uma Api com os jogos da Copa do Mundo de 2022
 
 ## Grupo:
-Rafael Paniccia Casseta - https://github.com/drsigma <br>
-Milton Rodrigues - https://github.com/miltonrd <br>
-Francisco Assis Freitas - https://github.com/freitas2021 <br>
-Ana Cristina de Magalhães Araújo - https://github.com/kikamagalhaes/ <br>
+Rafael Paniccia Casseta - https://github.com/drsigma - https://www.linkedin.com/in/rafael-paniccia-cassetta-38864469/ <br>
+Milton Rodrigues - https://github.com/miltonrd - https://www.linkedin.com/in/milton-rodrigues-7984a51b2/ <br>
+Francisco Assis Freitas - https://github.com/freitas2021 - https://www.linkedin.com/in/francisco-freitas-dev/ <br>
+Ana Cristina de Magalhães Araújo - https://github.com/kikamagalhaes/ - https://www.linkedin.com/in/kikamagalhaes/ <br>
 
 
 ## Metodologias Utilizadas
