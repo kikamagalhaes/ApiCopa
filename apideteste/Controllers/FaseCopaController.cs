@@ -1,12 +1,12 @@
-﻿using apideteste.Services;
+﻿using apicopa.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System;
 using Microsoft.EntityFrameworkCore;
-using apideteste.models;
+using apicopa.models;
 
-namespace apideteste.Controllers
+namespace apicopa.Controllers
 {
     [Route("api/fasecopa")]
     [ApiController]

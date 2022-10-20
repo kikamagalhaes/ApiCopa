@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace apideteste.models
+namespace apicopa.models
 {
     public class Selecao
     {

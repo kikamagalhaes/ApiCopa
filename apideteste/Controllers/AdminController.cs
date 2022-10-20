@@ -1,13 +1,13 @@
-﻿using apideteste.Services;
+﻿using apicopa.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System;
 using Microsoft.EntityFrameworkCore;
-using apideteste.models;
+using apicopa.models;
 using System.Linq;
 
-namespace apideteste.Controllers
+namespace apicopa.Controllers
 {
     [Route("api/admin")]
     [ApiController]

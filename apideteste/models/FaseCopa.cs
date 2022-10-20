@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace apideteste.models
+namespace apicopa.models
 {
     public class FaseCopa
     {

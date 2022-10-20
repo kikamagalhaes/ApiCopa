@@ -1,8 +1,8 @@
-﻿using apideteste.models;
+﻿using apicopa.models;
 using Microsoft.EntityFrameworkCore;
 using System.IO;
 
-namespace apideteste.Services
+namespace apicopa.Services
 {
     public class DbContexto : DbContext
     {

@@ -1,5 +1,5 @@
-﻿using apideteste.models;
-using apideteste.Services;
+﻿using apicopa.models;
+using apicopa.Services;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 
-namespace apideteste.Controllers
+namespace apicopa.Controllers
 {
 
         [Route("/api/selecoes")]

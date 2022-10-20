@@ -1,5 +1,5 @@
-﻿using apideteste.models;
-using apideteste.Services;
+﻿using apicopa.models;
+using apicopa.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +9,7 @@ using System.Diagnostics.CodeAnalysis;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace apideteste.Controllers
+namespace apicopa.Controllers
 {
     [Route("api/jogos")]
     [ApiController]

@@ -1,4 +1,4 @@
-using apideteste.Services;
+using apicopa.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -39,7 +39,7 @@ namespace apideteste
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "apideteste", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "apicopa", Version = "v1" });
             });
         }
 
@@ -50,7 +50,7 @@ namespace apideteste
             
             app.UseDeveloperExceptionPage();
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "apideteste v1"));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "apicopa v1"));
             
 
             app.UseCors(x => x
