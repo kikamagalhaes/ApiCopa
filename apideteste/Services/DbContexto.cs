@@ -12,7 +12,6 @@ namespace apideteste.Services
         public DbContexto() { }
 
 
-        public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Admin> Admin { get; set; }
         public DbSet<FaseCopa> FaseCopa { get; set; }
         public DbSet<Jogo> Jogos { get; set; }
