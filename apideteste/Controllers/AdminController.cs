@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System;
 using Microsoft.EntityFrameworkCore;
 using apideteste.models;
+using System.Linq;
 
 namespace apideteste.Controllers
 {
@@ -18,9 +19,9 @@ namespace apideteste.Controllers
             this.db = _db;
         }
 
-        [HttpGet("{nome}/{senha}")]
+        [HttpGet]
 
-        public ActionResult Get(string nome, string senha)
+        public ActionResult Get()
         {
             var lista = new List<dynamic>();
             using (var command = db.Database.GetDbConnection().CreateCommand())
@@ -44,6 +45,20 @@ namespace apideteste.Controllers
                     return StatusCode(200, lista);
                 }
             }
+        }
+
+        [HttpPost]
+        [Route("/valida")]
+        public ActionResult Valida([FromBody] Admin admin)
+        {
+            var adminDados = db.Admin.Where(c => c.Nome.Equals(admin.Nome) && c.Senha.Equals(admin.Senha)).ToArray();
+            if (adminDados.Length > 0)
+            {
+                return StatusCode(200);
+                //cliente.ID;
+            }
+
+            return StatusCode(400,"login invalido");
         }
 
         [HttpPost]

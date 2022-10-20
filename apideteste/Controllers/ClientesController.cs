@@ -23,7 +23,12 @@ namespace apideteste.Controllers
         [HttpGet]
         public ActionResult Get()
         {
-            
+            var clientes = db.Clientes.Where(c => c.Nome.Equals("Danilo") && c.Telefone.Equals("senha")).ToArray();
+            if(clientes.Length > 0)
+            {
+                var cliente = clientes[0];
+                //cliente.ID;
+            }
             
             return StatusCode(200, db.Clientes.ToList());
         }
