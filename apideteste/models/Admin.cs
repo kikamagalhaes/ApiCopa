@@ -16,8 +16,7 @@ namespace apideteste.models
         [Column(name: "nome")]
         public string Nome { get; set; }
 
-        [Required(ErrorMessage = "Campo obrigatório")]
-        [EmailAddress(ErrorMessage = "E-mail em formato inválido.")]
+        
         [MaxLength(100)]
         [Column(name: "email")]
 

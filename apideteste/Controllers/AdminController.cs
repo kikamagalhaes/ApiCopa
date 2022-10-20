@@ -54,7 +54,7 @@ namespace apideteste.Controllers
             var adminDados = db.Admin.Where(c => c.Nome.Equals(admin.Nome) && c.Senha.Equals(admin.Senha)).ToArray();
             if (adminDados.Length > 0)
             {
-                return StatusCode(200);
+                return StatusCode(200,"sucesso");
                 //cliente.ID;
             }
 
