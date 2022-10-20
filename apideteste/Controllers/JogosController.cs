@@ -27,7 +27,7 @@ namespace apideteste.Controllers
             var lista = new List<dynamic>();
             using (var command = db.Database.GetDbConnection().CreateCommand())
             {
-                command.CommandText = "Select j.id as id, sa.nome as selecaoa, sb.nome as seleceaob," + 
+                command.CommandText = "Select j.id as id, sa.nome as selecaoa, sb.nome as selecaob," + 
                                         "j.golselecaoa as golsa, j.golselecaob as golsb, f.nome as fase," +
                                         "j.iniciojogo as iniciojogo, j.fimjogo as fimdejogo, j.tempoatual as tempoatual" +
                                         " from jogos as j" +
@@ -44,11 +44,11 @@ namespace apideteste.Controllers
                             Id = Convert.ToInt32(result["id"]),
                             SelecaoA = result["selecaoa"],
                             SelecaoB = result["selecaob"],
-                            GolA = Convert.ToInt32(result["golselecaoa"]),
-                            GolB = Convert.ToInt32(result["golselecaob"]),
+                            GolA = Convert.ToInt32(result["golsa"]),
+                            GolB = Convert.ToInt32(result["golsb"]),
                             Fase = result["fase"],
                             InicioJogo = Convert.ToDateTime(result["iniciojogo"]),
-                            FimJogo = Convert.ToDateTime(result["fimjogo"]),
+                            FimJogo = Convert.ToDateTime(result["fimdejogo"]),
                             TempoAtual = Convert.ToDateTime(result["tempoatual"])
 
                         });

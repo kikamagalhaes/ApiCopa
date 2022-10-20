@@ -17,7 +17,7 @@ namespace apideteste.Controllers
         private DbContexto db;
         public ClientesController(DbContexto _db)
         {
-            this.db = db;
+            this.db = _db;
         }
         // GET: api/<ClientesController>
         [HttpGet]

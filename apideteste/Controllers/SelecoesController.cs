@@ -1,5 +1,6 @@
 ﻿using apideteste.models;
 using apideteste.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,17 +10,20 @@ using System.Collections.Generic;
 namespace apideteste.Controllers
 {
 
-        [Route("api/selecoes")]
+        [Route("/api/selecoes")]
         [ApiController]
-        public class SelecoesController : ControllerBase
+        
+
+    public class SelecoesController : ControllerBase
         {
             private DbContexto db;
             public SelecoesController(DbContexto _db)
             {
                 this.db = _db;
             }
-            [HttpGet]
-            public List<dynamic> Get()
+        [HttpGet]
+        [Route("")]
+        public ActionResult Get()
             {
                 var lista = new List<dynamic>();
                 using (var command = db.Database.GetDbConnection().CreateCommand())
@@ -41,12 +45,13 @@ namespace apideteste.Controllers
 
                             });
                         }
-                        return lista;
+                        return StatusCode(200,lista);
                     }
                 }
             }
 
         [HttpPost]
+        [Route("")]
         public ActionResult Post([FromBody] Selecao selecao)
         {
             db.Selecao.Add(selecao);
@@ -54,7 +59,8 @@ namespace apideteste.Controllers
             return StatusCode(201, selecao);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
+        [Route("{id}")]
         public ActionResult Put(int id, [FromBody] Selecao selecao)
         {
             var selecaoDb = db.Selecao.Find(id);
@@ -64,14 +70,15 @@ namespace apideteste.Controllers
             }
             selecaoDb.Nome = selecao.Nome;
             selecaoDb.Descricao = selecao.Descricao;
-            selecaoDb.UrlImagemBandeira = selecao.UrlImagemBandeira;
+            selecaoDb.Bandeira = selecao.Bandeira;
 
             db.Selecao.Update(selecaoDb);
             db.SaveChanges();
 
             return StatusCode(200, selecaoDb);
         }
-        [HttpDelete("{id}")]
+        [HttpDelete]
+        [Route("{id}")]
         public ActionResult Delete(int id)
         {
             var selecaoDb = db.Selecao.Find(id);

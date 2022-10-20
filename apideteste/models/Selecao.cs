@@ -17,6 +17,6 @@ namespace apideteste.models
 
         [Required(ErrorMessage = "Campo obrigatório")]
         [MaxLength(300)]
-        public string UrlImagemBandeira { get; set; }
+        public string Bandeira { get; set; }
     }
 }
