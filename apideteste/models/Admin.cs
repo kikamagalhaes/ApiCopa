@@ -29,5 +29,8 @@ namespace apideteste.models
         [Column(name: "senha")]
 
         public string Senha { get; set; }
+
+        [NotMapped]
+        public string Perm => "admin";
     }
 }
