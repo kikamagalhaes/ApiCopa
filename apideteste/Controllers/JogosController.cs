@@ -22,7 +22,7 @@ namespace apideteste.Controllers
         }
         // GET api/<JogosController>/5
         [HttpGet]
-        public List<dynamic> Get()
+        public ActionResult Get()
         {
             var lista = new List<dynamic>();
             using (var command = db.Database.GetDbConnection().CreateCommand())
@@ -53,7 +53,7 @@ namespace apideteste.Controllers
 
                         });
                     }
-                    return lista;
+                    return StatusCode(200, lista);
                 }
             }
 

@@ -18,8 +18,9 @@ namespace apideteste.Controllers
             this.db = _db;
         }
 
-        [HttpGet]
-        public List<dynamic> Get()
+        [HttpGet("{nome}/{senha}")]
+
+        public ActionResult Get(string nome, string senha)
         {
             var lista = new List<dynamic>();
             using (var command = db.Database.GetDbConnection().CreateCommand())
@@ -40,7 +41,7 @@ namespace apideteste.Controllers
 
                         });
                     }
-                    return lista;
+                    return StatusCode(200, lista);
                 }
             }
         }
