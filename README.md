@@ -26,8 +26,8 @@
 <img src="https://img.shields.io/badge/-GitHub-1C1C1C?style=for-the-badge&logo=github&logoColor=FFFFFF&link=https://github.com/drsigma"  style= "width:90px;"/>
   </a>
   
-  <td align="center"><img style="width: 70%; border-radius: 50%"
-  src="https://avatars.githubusercontent.com/u/60747556?v=4" 
+  <td align="center"><img style="width: 45%; border-radius: 50%"
+  src="https://github.com/kikamagalhaes/imagens/blob/main/milton2.png" 
   alt="Milton Rodrigues"/><br /><b>Milton Rodrigues</b></a><br />
    <a href="https://www.linkedin.com/in/milton-rodrigues-7984a51b2/" alt="Linkedin">
   <br>
