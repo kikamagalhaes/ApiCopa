@@ -56,6 +56,67 @@
 Back-End - https://github.com/kikamagalhaes/ApiCopa_BackEnd <br>
 Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd
 
+<h2>🛠️ Desenvolvimento </h2>
+
+### Metodologias Ágeis: 
+  Fizemos o Kanban no Trello com distribuição de responsabilidades e planejamento de tarefas à cumprir, em andamento, e já cumpridas. Organizamos por cores nos cards a prioridade de cada tarefa.
+ <a href="https://trello.com/invite/b/bXSU2jcp/ATTI3f7c5120baac4590fc11c5a10fdab24eB9C6B093/api-copa-grupo-1" alt="aqui" /> Clique aqui para visualizar os cards.
+ </a>
+<br>
+<br>
+<br>
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/trello.png?raw=true" width="800" />
+<br>
+<br>
+<br>
+
+## Front-end
+
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa1.jpg" width="800"  />
+<br>
+<br>
+
+* xxxx
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa2.jpg" width="800"  />
+<br>
+<br>
+
+* xxx
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa3.jpg" width="800"  />
+<br>
+<br>
+
+* xxxx
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa4.jpg" width="800"  />
+<br>
+<br>
+
+* xxxx
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa5.jpg" width="800"  />
+<br>
+<br>
+
+* xxxx
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa6.jpg" width="800"  />
+<br>
+<br>
+
+* xxxx
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa7.jpg" width="800"  />
+<br>
+<br>
+
+* xxxx
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa8.jpg" width="800"  />
+<br>
+<br>
+
+* xxxx
+<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa9.jpg" width="800"  />
+<br>
+<br>
+
+
   <h2>🎁 Agradecimentos </h2>
   Somos gratos por todo este treinamento que nos foram proporcionados pela <strong>Stone</strong> e pela <strong>Gama Academy</strong>.<br>
 Somos gratos ao professor <strong>Danilo</strong>, que além do código, nos ensinou vida.<br>
