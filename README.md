@@ -44,7 +44,7 @@
 <br>
  <h2>📄Metodologias e tecnologias utilizadas</h2>
  ✔️ <strong>Ágeis: </strong> <em> Kanban no Trello com responsabilidades distribuídas </em><br>
- ✔️ <strong>Front-end:</strong> <em>Projeto .NET MVC em C# com a utilização de HTML e Bootstrap </em> <br>
+ ✔️ <strong>Front-end:</strong> <em>Projeto AspNET Core MVC em C# com a utilização de HTML e Bootstrap </em> <br>
  ✔️ <strong>Back-end:</strong> <em>Api em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger </em> <br>
  ✔️ <strong>Banco de Dados:</strong><em> com a utilização do SQL Server e Entity Framework.</em>  <br>
  ✔️ <strong>Docker:</strong> <em>para containerização da aplicação.</em>  <br>
@@ -71,7 +71,7 @@ Back-End - https://github.com/kikamagalhaes/ApiCopa_BackEnd <br>
 Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 
 ## Front-end
-* Projeto .NET MVC em C# com a utilização de HTML e Bootstrap
+* Projeto AspNET Core MVC em C# com a utilização de HTML e Bootstrap
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa1.jpg" width="800"  />
 <br>
 <br><br>
