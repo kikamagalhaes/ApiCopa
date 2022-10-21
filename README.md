@@ -28,7 +28,7 @@
   </a>
   
   <td align="center"><img style="width: 45%; border-radius: 50%"
-  src="https://github.com/kikamagalhaes/imagens/blob/main/milton2.png" 
+  src="https://imagizer.imageshack.com/v2/240x300q90/c/r/924/YlmzOK.png" 
   alt="Milton Rodrigues"/><br /><b>Milton Rodrigues</b></a><br />
    <a href="https://www.linkedin.com/in/milton-rodrigues-7984a51b2/" alt="Linkedin">
   <br>
