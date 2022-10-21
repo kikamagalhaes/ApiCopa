@@ -60,7 +60,7 @@
 <br>
 <br>
 <br>
-<img src="https://imageshack.com/i/pmDmwxnDj" width="800" />
+<img src="https://imagizer.imageshack.com/img924/9044/daclrp.png" width="800" />
 <br>
 <br>
 <br>
