@@ -71,7 +71,7 @@ Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 
 ## Front-end
 * Utilização de HTML, Javascript e Bootstrap
-<img src="https://imageshack.com/i/pmDmwxnDj" width="800"  />
+<img src="https://imagizer.imageshack.com/v2/1280x238q90/r/922/DmwxnD.jpg" width="800"  />
 <br>
 <br><br>
 
@@ -81,32 +81,32 @@ Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 <br><br>
 
 * Listagem das Fases
-<img src="https://imageshack.com/i/po3FhBwbj" width="800"  />
+<img src="https://imagizer.imageshack.com/v2/1280x615q90/r/924/3FhBwb.jpg" width="800"  />
 <br>
 <br><br>
 
 * Login Administrativo
-<img src="https://imageshack.com/i/pmWxyXZCj" width="800"  />
+<img src="https://imagizer.imageshack.com/v2/951x457q90/r/923/nNXkRE.jpg" width="800"  />
 <br>
 <br><br>
 
 * Inserção de dados das Seleções
-<img src="https://imageshack.com/i/pm0TbABsj" width="800"  />
+<img src="https://imagizer.imageshack.com/v2/951x313q90/r/922/WxyXZC.jpg"  />
 <br>
 <br><br>
 * Logout
-<img src="https://imageshack.com/i/poOPfx2Xj" width="800"  />
+<img src="https://imagizer.imageshack.com/v2/951x181q90/r/924/OPfx2X.jpg"  />
 <br>
 <br><br><br>
 
 ## Back-end
 * CRUD - Implementação dos métodos Get, Post, Put e Delete sendo demonstrado no Swagger
-<img src="https://imageshack.com/i/pnctKDY1j" width="800"  />
+<img src="[https://imageshack.com/a/img923/1165/ctKDY1.jpg"  />
 <br>
 <br>
 
 * Ainda no Swagger demonstrando a implementação dos verbos
-<img src="https://imageshack.com/i/pod9vQcUj" width="800"  />
+<img src="https://imagizer.imageshack.com/v2/951x329q90/r/924/d9vQcU.jpg"  />
 <br>
 <br><br><br>
 
