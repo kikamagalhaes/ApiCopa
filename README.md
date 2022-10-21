@@ -44,8 +44,8 @@
 <br>
  <h2>📄Metodologias e tecnologias utilizadas</h2>
  ✔️ <strong>Ágeis: </strong> <em> Kanban no Trello com responsabilidades distribuídas </em><br>
- ✔️ <strong>Front-end:</strong> <em>Projeto AspNET Core MVC em C# com a utilização de HTML e Bootstrap </em> <br>
- ✔️ <strong>Back-end:</strong> <em>Api em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger </em> <br>
+ ✔️ <strong>Front-end:</strong> <em>Utilização de HTML e Bootstrap </em> <br>
+ ✔️ <strong>Back-end:</strong> <em>Api AspNet Core 5.0 em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger </em> <br>
  ✔️ <strong>Banco de Dados:</strong><em> com a utilização do SQL Server e Entity Framework.</em>  <br>
  ✔️ <strong>Contâiner:</strong> <em> empacotamento da Aplicação no Docker.</em>  <br>
  ✔️ <strong>Versionamento:</strong><em> uso do Git e disponibilização do código no GitHub. </em><br>
@@ -70,13 +70,13 @@ Back-End - https://github.com/kikamagalhaes/ApiCopa_BackEnd <br>
 Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 
 ## Front-end
-* Projeto AspNET Core MVC em C# com a utilização de HTML e Bootstrap
+* Utilização de HTML, Javascript e Bootstrap
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa1.jpg" width="800"  />
 <br>
 <br><br>
 
 * Listagem das Seleções e suas bandeiras
-<img src="https://imageshack.com/i/pnvg7u8kj" width="800"  />
+<img src="https://imagizer.imageshack.com/img924/6638/EVk5l1.jpg" width="800"  />
 <br>
 <br><br>
 
