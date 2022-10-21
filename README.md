@@ -42,14 +42,14 @@
 </p>
 <br>
  <h2>📄Metodologias e tecnologias utilizadas</h2>
- ✔️ Ágeis: Kanban no Trello e responsabilidades distribuídas <br>
- ✔️ Front-end: Projeto .NET MVC em C# com a utilização de HTML E Bootstrap  <br>
- ✔️ Back-end: Api em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger  <br>
- ✔️ Banco de Dados: com a utilização do SQL Server e Entity Framework.  <br>
- ✔️ Docker: para containerização da aplicação.  <br>
- ✔️ Cloud Computing: com o deploy da aplicação em máquina da Azure. <br>
- ✔️ Git e GitHub: para versionamento do código. <br>
- ✔️ IDE: Visual Studio como Ambiente de Desenvolvimento e também VSCode. <br>
+ ✔️ <strong>Ágeis: </strong> <em> Kanban no Trello com responsabilidades distribuídas </em><br>
+ ✔️ <strong>Front-end:</strong> <em>Projeto .NET MVC em C# com a utilização de HTML E Bootstrap </em> <br>
+ ✔️ <strong>Back-end:</strong> <em>Api em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger </em> <br>
+ ✔️ <strong>Banco de Dados:</strong><em> com a utilização do SQL Server e Entity Framework.</em>  <br>
+ ✔️ <strong>Docker:</strong> <em>para containerização da aplicação.</em>  <br>
+ ✔️ <strong>Cloud Computing:</strong><em> com o deploy da aplicação em máquina da Azure.</em> <br>
+ ✔️ <strong>Git e GitHub:</strong><em> para versionamento do código. </em><br>
+ ✔️ <strong>IDE:</strong><em> Visual Studio como Ambiente de Desenvolvimento e também VSCode.</em> <br>
 
 
 ## Github
