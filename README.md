@@ -7,10 +7,36 @@
 Uma Api com os jogos da Copa do Mundo de 2022
 
 ## Grupo:
-Rafael Paniccia Casseta - https://github.com/drsigma - https://www.linkedin.com/in/rafael-paniccia-cassetta-38864469/ <br>
-Milton Rodrigues - https://github.com/miltonrd - https://www.linkedin.com/in/milton-rodrigues-7984a51b2/ <br>
-Francisco Assis Freitas - https://github.com/freitas2021 - https://www.linkedin.com/in/francisco-freitas-dev/ <br>
-Ana Cristina de Magalhães Araújo - https://github.com/kikamagalhaes/ - https://www.linkedin.com/in/kikamagalhaes/ <br>
+<table>
+  <tr>
+  <td align="center"><img style="width: 70%; border-radius: 50%" 
+  src="https://avatars.githubusercontent.com/u/105136454?v=4"
+   alt="Ana Cristina"/><br /><sub style="font-size: 14px"><b>Ana Cristina</b></sub><br /> 
+  <a href="https://www.linkedin.com/in/kikamagalhaes/" alt="Linkedin">
+  <br>
+<img src="https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF&link=https://www.linkedin.com/in/kikamagalhaes/" style= "width:90px;"/><br>
+<img src="https://img.shields.io/badge/-GitHub-1C1C1C?style=for-the-badge&logo=github&logoColor=FFFFFF&link=https://github.com/kikamagalhaes"  style= "width:90px;"/>
+  </a>
+
+  <td align="center"><img style="width: 70%; border-radius: 50%"
+  src="https://avatars.githubusercontent.com/u/49679590?v=4" 
+  alt="Rafael Paniccia"/><br /><sub><b>Rafael Paniccia</b></sub></a><br /> 
+  <a href="https://www.linkedin.com/in/rafael-paniccia-cassetta-38864469/" alt="Linkedin">
+  <br>
+<img src="https://img.shields.io/badge/-Linkedin-000000?style=for-the-badge&logo=Linkedin&logoColor=00FFFF&link=https://www.linkedin.com/in/rafael-paniccia-cassetta-38864469/"  style= "width:90px;"/><br>
+<img src="https://img.shields.io/badge/-GitHub-1C1C1C?style=for-the-badge&logo=github&logoColor=FFFFFF&link=https://github.com/drsigma"  style= "width:90px;"/>
+  </a>
+  
+  <td align="center"><img style="width: 70%; border-radius: 50%"
+  src="https://avatars.githubusercontent.com/u/60747556?v=4" 
+  alt="Milton Rodrigues"/><br /><sub><b>Milton Rodrigues</b></sub></a><br />
+   <a href="https://www.linkedin.com/in/milton-rodrigues-7984a51b2/" alt="Linkedin">
+  <br>
+  <img src=https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF&link=https://www.linkedin.com/in/milton-rodrigues-7984a51b2/  style= "width:90px;"/><br>
+  <img src="https://img.shields.io/badge/-GitHub-1C1C1C?style=for-the-badge&logo=github&logoColor=FFFFFF&link=https://github.com/miltonrd"  style= "width:90px;"/>
+  </a>
+
+</table>
 
 
 ## Metodologias Utilizadas
