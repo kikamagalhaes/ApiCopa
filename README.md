@@ -47,8 +47,8 @@
  ✔️ <strong>Front-end:</strong> <em>Projeto AspNET Core MVC em C# com a utilização de HTML e Bootstrap </em> <br>
  ✔️ <strong>Back-end:</strong> <em>Api em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger </em> <br>
  ✔️ <strong>Banco de Dados:</strong><em> com a utilização do SQL Server e Entity Framework.</em>  <br>
- ✔️ <strong>Contâiner:</strong> <em>colocação da Aplicação no Docker.</em>  <br>
- ✔️ <strong>Versionamento do Código:</strong><em> com o uso do Git e GitHub. </em><br>
+ ✔️ <strong>Contâiner:</strong> <em> empacotamento da Aplicação no Docker.</em>  <br>
+ ✔️ <strong>Versionamento:</strong><em> uso do Git e disponibilização do código no GitHub. </em><br>
  ✔️ <strong>IDE:</strong><em> Visual Studio como Ambiente de Desenvolvimento e também VSCode.</em> <br><br><br>
 
 <h2>🛠️ Desenvolvimento </h2>
