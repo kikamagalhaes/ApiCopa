@@ -71,12 +71,12 @@ Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 
 ## Front-end
 * Utilização de HTML, Javascript e Bootstrap
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa1.jpg" width="800"  />
+<img src="https://imageshack.com/i/pmDmwxnDj" width="800"  />
 <br>
 <br><br>
 
 * Listagem das Seleções e suas bandeiras
-<img src="https://imagizer.imageshack.com/img924/6638/EVk5l1.jpg" width="800"  />
+<img src="https://imageshack.com/i/poEVk5l1j" width="800"  />
 <br>
 <br><br>
 
@@ -86,27 +86,27 @@ Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 <br><br>
 
 * Login Administrativo
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa5.jpg" width="800"  />
+<img src="https://imageshack.com/i/pmWxyXZCj" width="800"  />
 <br>
 <br><br>
 
 * Inserção de dados das Seleções
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa6.jpg" width="800"  />
+<img src="https://imageshack.com/i/pm0TbABsj" width="800"  />
 <br>
 <br><br>
 * Logout
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa7.jpg" width="800"  />
+<img src="https://imageshack.com/i/poOPfx2Xj" width="800"  />
 <br>
 <br><br><br>
 
 ## Back-end
 * CRUD - Implementação dos métodos Get, Post, Put e Delete sendo demonstrado no Swagger
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa8.jpg" width="800"  />
+<img src="https://imageshack.com/i/pnctKDY1j" width="800"  />
 <br>
 <br>
 
 * Ainda no Swagger demonstrando a implementação dos verbos
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa9.jpg" width="800"  />
+<img src="https://imageshack.com/i/pod9vQcUj" width="800"  />
 <br>
 <br><br><br>
 
