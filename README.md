@@ -100,12 +100,12 @@ Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 <br><br><br>
 
 ## Back-end
-* CRUD - Implementação dos métodos Get, Post, Put e Delete
+* CRUD - Implementação dos métodos Get, Post, Put e Delete sendo demonstrado no Swagger
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa8.jpg" width="800"  />
 <br>
 <br>
 
-* Ainda implementando os verbos
+* Ainda no Swagger demonstrando a implementação dos verbos
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa9.jpg" width="800"  />
 <br>
 <br><br><br>
