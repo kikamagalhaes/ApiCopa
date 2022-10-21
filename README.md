@@ -60,7 +60,7 @@
 <br>
 <br>
 <br>
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/trello.png?raw=true" width="800" />
+<img src="https://imageshack.com/i/pmDmwxnDj" width="800" />
 <br>
 <br>
 <br>
@@ -76,12 +76,12 @@ Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 <br><br>
 
 * Listagem das Seleções e suas bandeiras
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa2.jpg" width="800"  />
+<img src="https://imageshack.com/i/pnvg7u8kj" width="800"  />
 <br>
 <br><br>
 
 * Listagem das Fases
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa3.jpg" width="800"  />
+<img src="https://imageshack.com/i/po3FhBwbj" width="800"  />
 <br>
 <br><br>
 
