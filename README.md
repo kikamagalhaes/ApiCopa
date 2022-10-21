@@ -55,3 +55,16 @@
 ## Github
 Back-End - https://github.com/kikamagalhaes/ApiCopa_BackEnd <br>
 Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd
+
+  <h2>🎁 Agradecimentos </h2>
+  Somos gratos por todo este treinamento que nos foram proporcionados pela <strong>Stone</strong> e pela <strong>Gama Academy</strong>.<br>
+Somos gratos ao professor <strong>Danilo</strong>, que além do código, nos ensinou vida.<br>
+Somos gratos à <strong>Carina</strong> que em todo o tempo nos acompanhou e possibilitou a organização do nosso treinamento.<br><br>
+ 
+
+      
+<p>
+ <strong><em>  ⁠"Use como combustível!"</strong> - Frase que ouvimos do professor Danilo, e que levaremos para a vida em uma postura de resiliência mediante as adversidades que encontrarmos no caminho.   Sim, Professor Danilo, faremos isso.  Obrigado pelo exemplo.</em><br></p>
+   
+  <p> E sim, <strong> Stone </strong>! Este é apenas o início da nossa linda Jornada.  Vamos em frente!</p>
+
