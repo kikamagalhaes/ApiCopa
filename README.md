@@ -76,7 +76,7 @@ Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 <br><br>
 
 * Listagem das Seleções e suas bandeiras
-<img src="https://imageshack.com/i/poEVk5l1j" width="800"  />
+<img src="https://imagizer.imageshack.com/v2/1280x630q90/r/924/EVk5l1.jpg" width="800"  />
 <br>
 <br><br>
 
