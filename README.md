@@ -1,6 +1,7 @@
 
 
 # Trilha de Especialização em .NET da Gama Academy e Stone
+<br>
 
 ## Desafio Final
 
@@ -35,26 +36,21 @@
   <img src="https://img.shields.io/badge/-GitHub-1C1C1C?style=for-the-badge&logo=github&logoColor=FFFFFF&link=https://github.com/miltonrd"  style= "width:90px;"/>
   </a>
 
-</table>
+</table><br><br>
 <br>
-<h2>👨🏻‍💻 Proposta do Desafio</h2> 
+<h2>👨🏻‍💻 Proposta do Desafio - API Copa do Mundo </h2> 
 <p>Um sistema com objetivo de acompanhar o andamento dos clubes e os seus respectivos jogos na Copa de 2022.  O sistema deve ter uma área administrativa para o cadastro dos itens essenciais e uma página de front-end para acompanhar todas as fases do campeonato.
 </p>
 <br>
  <h2>📄Metodologias e tecnologias utilizadas</h2>
  ✔️ <strong>Ágeis: </strong> <em> Kanban no Trello com responsabilidades distribuídas </em><br>
- ✔️ <strong>Front-end:</strong> <em>Projeto .NET MVC em C# com a utilização de HTML E Bootstrap </em> <br>
+ ✔️ <strong>Front-end:</strong> <em>Projeto .NET MVC em C# com a utilização de HTML e Bootstrap </em> <br>
  ✔️ <strong>Back-end:</strong> <em>Api em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger </em> <br>
  ✔️ <strong>Banco de Dados:</strong><em> com a utilização do SQL Server e Entity Framework.</em>  <br>
  ✔️ <strong>Docker:</strong> <em>para containerização da aplicação.</em>  <br>
  ✔️ <strong>Cloud Computing:</strong><em> com o deploy da aplicação em máquina da Azure.</em> <br>
  ✔️ <strong>Git e GitHub:</strong><em> para versionamento do código. </em><br>
- ✔️ <strong>IDE:</strong><em> Visual Studio como Ambiente de Desenvolvimento e também VSCode.</em> <br>
-
-
-## Github
-Back-End - https://github.com/kikamagalhaes/ApiCopa_BackEnd <br>
-Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd
+ ✔️ <strong>IDE:</strong><em> Visual Studio como Ambiente de Desenvolvimento e também VSCode.</em> <br><br><br>
 
 <h2>🛠️ Desenvolvimento </h2>
 
@@ -70,51 +66,50 @@ Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd
 <br>
 <br>
 
-## Front-end
+## Github
+Back-End - https://github.com/kikamagalhaes/ApiCopa_BackEnd <br>
+Front-End - https://github.com/kikamagalhaes/ApiCopa_FrontEnd <br><br><br><br>
 
+## Front-end
+* Projeto .NET MVC em C# com a utilização de HTML e Bootstrap
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa1.jpg" width="800"  />
 <br>
-<br>
+<br><br>
 
-* xxxx
+* Listagem das Seleções e suas bandeiras
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa2.jpg" width="800"  />
 <br>
-<br>
+<br><br>
 
-* xxx
+* Listagem das Fases
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa3.jpg" width="800"  />
 <br>
-<br>
+<br><br>
 
-* xxxx
-<img src="https://github.com/kikamagalhaes/imagens/blob/main/copa4.jpg" width="800"  />
-<br>
-<br>
-
-* xxxx
+* Login Administrativo
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa5.jpg" width="800"  />
 <br>
-<br>
+<br><br>
 
-* xxxx
+* Inserção de dados das Seleções
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa6.jpg" width="800"  />
 <br>
-<br>
-
-* xxxx
+<br><br>
+* Logout
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa7.jpg" width="800"  />
 <br>
-<br>
+<br><br><br>
 
-* xxxx
+## Back-end
+* CRUD - Implementação dos métodos Get, Post, Put e Delete
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa8.jpg" width="800"  />
 <br>
 <br>
 
-* xxxx
+* Ainda implementando os verbos
 <img src="https://github.com/kikamagalhaes/imagens/blob/main/copa9.jpg" width="800"  />
 <br>
-<br>
+<br><br><br>
 
 
   <h2>🎁 Agradecimentos </h2>
