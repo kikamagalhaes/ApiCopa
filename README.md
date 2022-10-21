@@ -48,7 +48,6 @@
  ✔️ <strong>Back-end:</strong> <em>Api em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger </em> <br>
  ✔️ <strong>Banco de Dados:</strong><em> com a utilização do SQL Server e Entity Framework.</em>  <br>
  ✔️ <strong>Docker:</strong> <em>para containerização da aplicação.</em>  <br>
- ✔️ <strong>Cloud Computing:</strong><em> com o deploy da aplicação em máquina da Azure.</em> <br>
  ✔️ <strong>Git e GitHub:</strong><em> para versionamento do código. </em><br>
  ✔️ <strong>IDE:</strong><em> Visual Studio como Ambiente de Desenvolvimento e também VSCode.</em> <br><br><br>
 
