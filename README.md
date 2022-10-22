@@ -46,7 +46,7 @@
  ✔️ <strong>Ágeis: </strong> <em> Kanban no Trello com responsabilidades distribuídas </em><br>
  ✔️ <strong>Front-end:</strong> <em>Utilização de HTML e Bootstrap </em> <br>
  ✔️ <strong>Back-end:</strong> <em>Api AspNet Core 5.0 em C# com implementação dos métodos Get, Post, Put e Delete via Insomnia e Swagger </em> <br>
- ✔️ <strong>Banco de Dados:</strong><em> com a utilização do SQL Server e Entity Framework.</em>  <br>
+ ✔️ <strong>Banco de Dados:</strong><em> com a utilização do MYSQL e Entity Framework.</em>  <br>
  ✔️ <strong>Contâiner:</strong> <em> empacotamento da Aplicação no Docker.</em>  <br>
  ✔️ <strong>Versionamento:</strong><em> uso do Git e disponibilização do código no GitHub. </em><br>
  ✔️ <strong>IDE:</strong><em> Visual Studio como Ambiente de Desenvolvimento e também VSCode.</em> <br><br><br>
